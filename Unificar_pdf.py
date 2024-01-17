@@ -2,7 +2,7 @@ import os
 import fitz  # PyMuPDF
 
 # Diretório contendo os arquivos PDF a serem combinados
-diretorio = r'C:\Users\PC-CM-BONSUCESSO\Downloads\pdf'
+diretorio = r'' # digite aqui o caminho para pasta contendo os arquivos em pdf
 
 # Lista todos os arquivos no diretório
 arquivos = [arquivo for arquivo in os.listdir(diretorio) if arquivo.lower().endswith('.pdf')]
